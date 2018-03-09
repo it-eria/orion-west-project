@@ -181,7 +181,7 @@ $(document).ready(function () {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $(".navbar").css('background-color', 'rgba(89, 101, 111, 0.85)');
+                $(".navbar").css('background-color', 'rgba(0, 0, 0, 0.6)');
             } else {
                 $('.navbar').css('background-color', 'transparent');
             }
