@@ -421,11 +421,7 @@ svg {
     fill: rgba(89, 101, 111, 0.85);
 }
 
-@media (max-width: 991px) {
-    .slide:nth-child(1) .slide__text {
-        background-color: rgba(89, 101, 111, 0.85);
-    }
-}
+
 
 .slide:nth-child(2) {
     left: 100%;
@@ -594,11 +590,7 @@ svg {
     font-family: 'Raleway Light', sans-serif;
 }
 
-@media (max-width: 991px) {
-    .slide__text-desc {
-        display: none;
-    }
-}
+
 
 .slide__text-link {
     z-index: 5;
@@ -952,7 +944,7 @@ nav {
     width: 100%;
     max-width: 250px;
     margin: 15px;
-    min-height: 345px;
+    min-height: 260px;
 }
 
 
@@ -1701,6 +1693,7 @@ background-color: #000;
     transform: translateX(-50%) translateY(0);
     position: absolute;
     bottom: 0;
+
     z-index: 11;
     left: 50%;
     cursor: pointer;
@@ -1709,7 +1702,7 @@ background-color: #000;
 .cat-title {
     font-size: 18px;
     display: table;
-    min-width: 160px;
+    min-width: 180px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #59656f;
@@ -1865,7 +1858,7 @@ background-color: #000;
     }
 
     .slide__text-heading {
-        line-height: 15rem;
+        line-height: initial;
     }
 
 
@@ -1884,7 +1877,7 @@ background-color: #000;
     }
 
     .service-item {
-        min-height: 380px;
+        min-height: 250px;
         max-width: 100%;
         margin: 10px;
     }
@@ -1923,6 +1916,24 @@ background-color: #000;
     .navbar-brand {
         padding: 0 15px;
         height: 80px;
+    }
+
+    .slide__text-desc {
+        font-size: 18px;
+    }
+
+    .slide__text-desc span {
+        font-size: 23px
+    }
+
+    .navbar-collapse {
+        border-top: 0;
+    }
+
+    .btn-border-style {
+        padding: 13px 13px 13px 0;
+        margin-top: 10px;
+        float: left;
     }
 
     .nav-second .navbar-nav > li:first-child {
@@ -1982,6 +1993,14 @@ background-color: #000;
         font-size: 3rem;
     }
 
+    .category-container {
+        margin-top: 20px;
+    }
+
+    .gallery-grid {
+        margin-top: 40px;
+    }
+
     .filter-block a {
         font-size: 18px;
         margin: 4px 0;
@@ -1998,6 +2017,6 @@ background-color: #000;
     }
 
     .service-item {
-        min-height: 465px;
+        min-height: 234px;
     }
 }
